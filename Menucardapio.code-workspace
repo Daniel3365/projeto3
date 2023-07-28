@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../Projetos do WebMaster"
+		},
+		{
+			"path": "../MenuCardápio"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "MenuCardápio"
+	}
+}
