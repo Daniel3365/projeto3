@@ -32,3 +32,19 @@ h1{
     color: black;
     text-align: center;
 }
+
+#photos{
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 50px;
+    border: 2px solid red;
+    width: 1250px;
+    height: 100px;
+}
+
+.one{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 7px solid black;
+}
