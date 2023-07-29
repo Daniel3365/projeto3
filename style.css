@@ -16,7 +16,7 @@ body{
 
 #prince{
     width: 1350px;
-    height: 900px;
+    height: 2000px;
     margin: 20px auto;
     padding-top: 30px;
     background-color: white;
@@ -37,14 +37,34 @@ h1{
     display: inline-block;
     margin-left: 50px;
     margin-top: 50px;
-    border: 2px solid red;
     width: 1250px;
-    height: 100px;
+    height: 340px;
 }
 
-.one{
+img{
     width: 250px;
     height: 250px;
     border-radius: 50%;
     border: 7px solid black;
+}
+
+
+.one{
+    display: inline-block;
+    width: 270px;
+    height: 320px;
+    margin-top: 15px;
+    margin-left: 30px;
+}
+
+.one p{
+    display: inline-block;
+    width: 103px;
+    border: 3px solid black;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    background-color: green;
+    margin-left: 70px;
+    margin-top: 10px;
 }
