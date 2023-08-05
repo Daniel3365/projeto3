@@ -10,61 +10,112 @@ html, body{
     height: 100%;
 }
 
-body{
-    background-color: red;
+.prince{
+    width: 100%;
+    height: auto;
+    padding: 50px;
+    border: 20px solid rgb(156, 23, 54);
 }
 
-#prince{
-    width: 1350px;
-    height: 2000px;
-    margin: 20px auto;
-    padding-top: 30px;
-    background-color: white;
-}
-
-#banner{
+.banner{
     width: 300px;
     margin: auto;
-    border: 5px double red;
+    border: 5px double rgb(156, 23, 54);
 }
 
 h1{
-    color: black;
+    color: rgb(153, 172, 186);
     text-align: center;
 }
 
-#photos{
+.photos{
+    border: 5px solid blue;
     display: inline-block;
-    margin-left: 50px;
-    margin-top: 50px;
-    width: 1250px;
-    height: 340px;
+    margin-top: 20px;
+    width: 99%;
+    height: auto;
 }
-
-img{
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
-    border: 7px solid black;
-}
-
 
 .one{
+    border: 5px solid black;
     display: inline-block;
-    width: 270px;
-    height: 320px;
-    margin-top: 15px;
-    margin-left: 30px;
+    width: 23%;
+    height: auto;
+    margin-left: 1.5%;
 }
 
 .one p{
     display: inline-block;
     width: 103px;
-    border: 3px solid black;
+    border-radius: 20%;
     font-size: 30px;
     text-align: center;
     color: white;
-    background-color: green;
+    background-color: rgb(153, 172, 186);
     margin-left: 70px;
-    margin-top: 10px;
+    margin-top: 20px;
+}
+
+img{
+    width: 280px;
+    height: 280px;
+    margin: -2px;
+    border-radius: 50%;
+    border: 5px solid rgb(153, 172, 186);
+}
+
+@media screen and (max-width: 1300px){
+    .banner{
+        width: 300px;
+        margin-right: 1000px;
+    }
+
+    .photos{
+        display: inline-block;
+        margin-top: 20px;
+        margin-left: 5%;
+        width: 90%;
+        height: auto;
+    }
+
+    .one{
+        display: inline-block;
+        width: 30%;
+        height: auto;
+        margin-left: 2.2%;
+        margin-top: 10px;
+    }
+
+    img{
+        width: 290px;
+        height: 290px;
+        margin: 5px;
+        border-radius: 50%;
+    }
+}
+
+@media screen and (max-width: 1289px){
+    .banner{
+        width: 300px;
+        margin-right: 1000px;
+    }
+
+    .one{
+        display: inline-block;
+        width: 33%;
+        height: auto;
+        margin-left: 2.2%;
+        margin-top: 10px;
+    }
+    
+} 
+
+@media screen and (max-width: 1030px){
+    .one{
+        display: inline-block;
+        width: 50%;
+        height: auto;
+        margin-left: 2.2%;
+        margin-top: 10px;
+    }
 }
